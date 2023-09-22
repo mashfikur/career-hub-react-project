@@ -5,7 +5,7 @@ const Error = () => {
         OOPS !! Error
       </h3>
       <p className="font-semibold text-center text-xl">
-        IF YOU ARE SEEING THIS PAGE MEANS THAT THERE IS SOMETHING WRONG, FIX IT.
+        IF YOU ARE SEEING THIS PAGE , MEANS THAT THERE IS SOMETHING WRONG, FIX IT.
       </p>
     </div>
   );
