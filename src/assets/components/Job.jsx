@@ -1,7 +1,11 @@
 import PropTypes from "prop-types";
 
 const Job = ({ job }) => {
-  return <div>job  </div>;
+  return (
+    <div>
+      
+    </div>
+  );
 };
 
 Job.propTypes = {

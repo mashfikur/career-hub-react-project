@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import FeaturedJobs from "./FeaturedJobs";
 import JobCategroy from "./JobCategroy";
 
 const Statistics = () => {
@@ -6,6 +7,7 @@ const Statistics = () => {
         <div>
             <Banner></Banner>
             <JobCategroy></JobCategroy>
+            <FeaturedJobs></FeaturedJobs>
         </div>
     );
 };
