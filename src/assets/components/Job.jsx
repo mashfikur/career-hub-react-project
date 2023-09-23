@@ -1,8 +1,10 @@
 import PropTypes from "prop-types";
 import { CiLocationOn, CiDollar } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const Job = ({ job }) => {
   const {
+    id,
     logo,
     job_title,
     company_name,
@@ -39,7 +41,9 @@ const Job = ({ job }) => {
           </h3>
         </div>
         <div>
-          <button className="btn btn-own" >View Details</button>
+          <Link to={`/job/${id}`}>
+            <button className="btn btn-own">View Details</button>
+          </Link>
         </div>
       </div>
     </div>
