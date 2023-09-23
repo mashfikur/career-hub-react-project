@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import SectionTitle from "./SectionTitle";
+import Job from "./Job";
 
 const FeaturedJobs = () => {
     const [jobs,setJobs]=useState([])
@@ -9,7 +10,7 @@ const FeaturedJobs = () => {
         .then(data=>setJobs(data))
     },[])
   return (
-    <div>
+    <div className="max-w-[80rem] mx-auto">
       <SectionTitle title={"Featured Jobs"}>
         <p>
           Explore thousands of job opportunities with all the information you
@@ -17,8 +18,10 @@ const FeaturedJobs = () => {
         </p>
       </SectionTitle>
 
-      <div>
-        Total Jobs : {jobs.length}
+      <div className="grid grid-cols-2">
+        {
+            jobs.map(job=><Job key={job.id} job={job} ></Job>)
+        }
       </div>
     </div>
   );
