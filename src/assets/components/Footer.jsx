@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-[#1A1919] text-white">
-        <footer className="footer p-10   max-w-[80rem] mx-auto ">
+        <footer className="footer max-w-[80rem] mx-auto py-28 ">
           <aside>
             <svg
               width="50"

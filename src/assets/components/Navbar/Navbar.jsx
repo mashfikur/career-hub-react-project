@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
+import "../common/common.css"
 
 const Navbar = () => {
   const links = (
@@ -11,8 +12,8 @@ const Navbar = () => {
   );
 
   return (
-    <div className="" >
-      <div className="navbar bg-base-100">
+    <div  >
+      <div className="navbar">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -44,7 +45,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal space-x-6 font-bold">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className=" btn btn-info capitalize font-extrabold ">
+          <a className=" btn btn-own capitalize ">
             Start Applying
           </a>
         </div>
