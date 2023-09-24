@@ -6,7 +6,7 @@ const AppliedJobs = () => {
   const jobs = useLoaderData();
 
   const [appliedJobs, setAppliedJobs] = useState([]);
-  const [display,setDisplay] = useState([]);
+  const [display, setDisplay] = useState([]);
 
   useEffect(() => {
     const storedJobs = getJobs();
@@ -27,19 +27,14 @@ const AppliedJobs = () => {
 
   const handleFilter = (filterText) => {
     if (filterText === "all") {
-        
       setDisplay(appliedJobs);
-
     } else if (filterText === "Remote") {
-
       const job = appliedJobs.filter(
         (job) => job.remote_or_onsite === "Remote"
       );
 
       setDisplay(job);
-
     } else if (filterText === "Onsite") {
-
       const job = appliedJobs.filter(
         (job) => job.remote_or_onsite === "Onsite"
       );
@@ -48,7 +43,7 @@ const AppliedJobs = () => {
   };
 
   return (
-    <div>
+    <div className="max-w-[80rem] mx-auto mb-20">
       <div>
         <details className="dropdown my-4 ">
           <summary className="m-1 btn">Filter</summary>
