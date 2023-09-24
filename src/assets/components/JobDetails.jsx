@@ -1,6 +1,7 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import "./common/common.css";
 import Desctiption from "./Desctiption";
+import JobSidebar from "./JobSidebar";
 
 const JobDetails = () => {
   const jobs = useLoaderData();
@@ -14,6 +15,9 @@ const JobDetails = () => {
     job_responsibility,
     educational_requirements,
     experiences,
+    contact_information,
+    job_title,
+    salary,
   } = selctedJob;
 
   return (
@@ -42,7 +46,9 @@ const JobDetails = () => {
             ></Desctiption>
             <Desctiption title={"Experiences"} desc={experiences}></Desctiption>
           </div>
-          <div className="w-1/4 border-2">sidebar</div>
+          <div className="w-1/4">
+            <JobSidebar salary={salary} job_title={job_title} contact_information={contact_information} ></JobSidebar>
+          </div>
         </div>
       </div>
     </div>
