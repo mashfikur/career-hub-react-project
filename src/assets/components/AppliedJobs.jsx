@@ -3,29 +3,76 @@ import { getJobs } from "../../localStorage";
 import { useEffect, useState } from "react";
 
 const AppliedJobs = () => {
-  const [displayJobs, setDisplayJobs] = useState([]);
-  const allJobs = useLoaderData();
-  const applied_jobs = getJobs();
-  const newArray = [];
-  console.log(applied_jobs, allJobs);
+  const jobs = useLoaderData();
 
-  for (let job of allJobs) {
-    for (let id of applied_jobs) {
-      if (job.id === id) {
-        newArray.push(job);
+  const [appliedJobs, setAppliedJobs] = useState([]);
+  const [display,setDisplay] = useState([]);
+
+  useEffect(() => {
+    const storedJobs = getJobs();
+    if (storedJobs.length > 0) {
+      const newArray = [];
+      for (let storedId of storedJobs) {
+        const job = jobs.find((job) => job.id === storedId);
+
+        if (job) {
+          newArray.push(job);
+        }
       }
+
+      setAppliedJobs(newArray);
+      setDisplay(newArray);
     }
-  }
+  }, [jobs]);
+
+  const handleFilter = (filterText) => {
+    if (filterText === "all") {
+        
+      setDisplay(appliedJobs);
+
+    } else if (filterText === "Remote") {
+
+      const job = appliedJobs.filter(
+        (job) => job.remote_or_onsite === "Remote"
+      );
+
+      setDisplay(job);
+
+    } else if (filterText === "Onsite") {
+
+      const job = appliedJobs.filter(
+        (job) => job.remote_or_onsite === "Onsite"
+      );
+      setDisplay(job);
+    }
+  };
 
   return (
     <div>
-      All Jobs : {allJobs.length} <br />
-      Applied Jobs : {applied_jobs.length}
       <div>
-        {displayJobs.map((job, idx) => (
-          <li key={idx}>Hello {job} </li>
-        ))}
+        <details className="dropdown my-4 ">
+          <summary className="m-1 btn">Filter</summary>
+          <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
+            <li>
+              <a onClick={() => handleFilter("all")}>All</a>
+            </li>
+            <li>
+              <a onClick={() => handleFilter("Remote")}>Remote</a>
+            </li>
+            <li>
+              <a onClick={() => handleFilter("Onsite")}>Onsite</a>
+            </li>
+          </ul>
+        </details>
       </div>
+
+      <ul className="text-center">
+        {display.map((job, idx) => (
+          <li key={idx}>
+            {job.job_title} | {job.company_name} | {job.remote_or_onsite}{" "}
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };

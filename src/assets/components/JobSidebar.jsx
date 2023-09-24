@@ -9,6 +9,7 @@ import {
 import { CiLocationOn } from "react-icons/ci";
 import { HiOutlineCalendarDays } from "react-icons/hi2";
 import { saveJob } from "../../localStorage";
+import toast, { Toaster } from "react-hot-toast";
 
 const JobSidebar = ({
   contact_information,
@@ -20,6 +21,7 @@ const JobSidebar = ({
 
   const handleApply=(id)=>{
     saveJob(id)
+    toast.success("You have succesfully Applied")
   }
 
   return (
@@ -66,6 +68,7 @@ const JobSidebar = ({
         <button 
         onClick={()=>handleApply(id)}
         className="btn btn-own">Apply Now</button>
+        <Toaster position="top-right" ></Toaster>
       </div>
     </div>
   );
