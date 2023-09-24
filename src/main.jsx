@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       {
         path: "/applied-jobs",
         element: <AppliedJobs></AppliedJobs>,
-        loader: () => fetch("https://www.jsonkeeper.com/b/KBOR"),
+        loader: () => fetch("jobs.json"),
       },
       {
         path: "/blog",
@@ -30,7 +30,7 @@ const router = createBrowserRouter([
       {
         path: "/job/:jobID",
         element: <JobDetails></JobDetails>,
-        loader: () => fetch("https://www.jsonkeeper.com/b/KBOR"),
+        loader: () => fetch("jobs.json"),
       },
     ],
   },
