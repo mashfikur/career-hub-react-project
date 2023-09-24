@@ -1,117 +1,116 @@
 [
-     {
+  {
       "id": 1,
       "logo": "https://i.ibb.co/znJ6qcc/google.png",
       "job_title": "Technical Database Engineer",
       "company_name": "Google LLC",
       "remote_or_onsite": "Remote",
-      "location": "Dhaka, Bangladesh",
+      "location": "Mountain View, California, USA",
       "job_type": "Full Time",
       "salary": "100k-150k",
-      "job_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-      "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-      "educational_requirements": "Bachelor degree to complete any reputational university.",
-      "experiences": "2-3 Years in this field.",
+      "job_description": "As a Technical Database Engineer at Google LLC, you will play a pivotal role in designing, optimizing, and maintaining our complex database systems that power Google's products and services. You will have the opportunity to work on groundbreaking projects and technologies, contributing to Google's mission of organizing the world's information and making it universally accessible and useful.",
+      "job_responsibility": "Responsibilities as a Technical Database Engineer at Google LLC include designing and implementing highly available and scalable database solutions, optimizing database performance, ensuring data security and integrity, and collaborating closely with cross-functional teams to understand their data requirements and provide efficient solutions. You will also participate in database architecture discussions and contribute to the continuous improvement of our database systems.",
+      "educational_requirements": "Bachelor's degree in Computer Science or a related field from a reputable university.",
+      "experiences": "2-3 years of experience in database engineering.",
       "contact_information": {
-        "phone": "01750-00 00 00",
-        "email": "info@gmail.com",
-        "address": "Sillicon Valley , California , USA"
+          "phone": "650-253-0000",
+          "email": "info@google.com",
+          "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA"
       }
-    },
-    {
-        "id": 2,
-        "logo": "https://i.ibb.co/Zd73hz4/netflix.png",
-        "job_title": "Senior Product Designer",
-        "company_name": "Netflix",
-        "remote_or_onsite": "Onsite",
-        "location": "Dhaka, Bangladesh",
-        "job_type": "Full Time",
-        "salary": "100k-150k",
-        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educational_requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact_information": {
-          "phone": "01750-00 00 00",
-          "email": "info@gmail.com",
-          "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-        }
-      },
-      {
-        "id": 3,
-        "logo": "https://i.ibb.co/xGBXqz7/tesla.png",
-        "job_title": "Software Engineer",
-        "company_name": "Tesla",
-        "remote_or_onsite": "Onsite",
-        "location": "Dhaka, Bangladesh",
-        "job_type": "Full Time",
-        "salary": "100k-150k",
-        "job_description": " A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educational_requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact_information": {
-          "phone": "01750-00 00 00",
-          "email": "info@gmail.com",
-          "address": "Lake Street,California,USA"
-        }
-      },
-      {
-        "id": 4,
-        "logo": "https://i.ibb.co/znJ6qcc/google.png",
-        "job_title": "Software Engineer",
-        "company_name": "Google LLC",
-        "remote_or_onsite": "Onsite",
-        "location": "Dhaka, Bangladesh",
-        "job_type": "Full Time",
-        "salary": "100k-150k",
-        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educational_requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact_information": {
-          "phone": "01750-00 00 00",
-          "email": "info@gmail.com",
-          "address": "Sillicon Valley , California , USA"
-        }
-      },
-      {
-        "id": 5,
-        "logo": "https://i.ibb.co/xGBXqz7/tesla.png",
-        "job_title": "Technical Database Engineer",
-        "company_name": "Tesla",
-        "remote_or_onsite": "Remote",
-        "location": "Dhaka, Bangladesh",
-        "job_type": "Full Time",
-        "salary": "100k-150k",
-        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educational_requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact_information": {
-          "phone": "01750-00 00 00",
-          "email": "info@gmail.com",
-          "address": "Monte Carlo,California , USA"
-        }
-      },
-      {
-        "id": 6,
-        "logo": "https://i.ibb.co/Zd73hz4/netflix.png",
-        "job_title": "Senior Product Designer",
-        "company_name": "Netflix",
-        "remote_or_onsite": "Remote",
-        "location": "Dhaka, Bangladesh",
-        "job_type": "Full Time",
-        "salary": "100k-150k",
-        "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
-        "job_responsibility": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
-        "educational_requirements": "Bachelor degree to complete any reputational university.",
-        "experiences": "2-3 Years in this field.",
-        "contact_information": {
-          "phone": "01750-00 00 00",
-          "email": "info@gmail.com",
-          "address": "Dhanmondi 32, Sukrabad Dhaka, Bangladesh"
-        }
+  },
+  {
+      "id": 2,
+      "logo": "https://i.ibb.co/Zd73hz4/netflix.png",
+      "job_title": "Senior Product Designer",
+      "company_name": "Netflix",
+      "remote_or_onsite": "Onsite",
+      "location": "Los Gatos, California, USA",
+      "job_type": "Full Time",
+      "salary": "100k-150k",
+      "job_description": "As a Senior Product Designer at Netflix, you will be at the forefront of shaping the user experience for our streaming platform. You'll work closely with our design team to create visually stunning and user-friendly interfaces that delight millions of viewers worldwide. Your designs will contribute to the success of Netflix's mission to entertain the world.",
+      "job_responsibility": "Responsibilities as a Senior Product Designer at Netflix include collaborating with cross-functional teams to define design requirements, creating wireframes and prototypes, conducting user research, and contributing to the development of our design system. You will play a key role in ensuring that our product remains innovative and engaging, setting the bar for the industry.",
+      "educational_requirements": "Bachelor's degree in Design or a related field from a reputable university.",
+      "experiences": "2-3 years of experience in UI/UX design.",
+      "contact_information": {
+          "phone": "408-540-3700",
+          "email": "info@netflix.com",
+          "address": "100 Winchester Circle, Los Gatos, CA 95032, USA"
       }
-  
-  ]
+  },
+  {
+      "id": 3,
+      "logo": "https://i.ibb.co/xGBXqz7/tesla.png",
+      "job_title": "Software Engineer",
+      "company_name": "Tesla",
+      "remote_or_onsite": "Onsite",
+      "location": "Palo Alto, California, USA",
+      "job_type": "Full Time",
+      "salary": "100k-150k",
+      "job_description": "As a Software Engineer at Tesla, you will be part of a dynamic team working on cutting-edge technologies to drive the future of electric vehicles and sustainable energy. Your work will contribute to Tesla's mission of accelerating the world's transition to sustainable energy and transportation.",
+      "job_responsibility": "Responsibilities as a Software Engineer at Tesla include developing and maintaining software solutions, collaborating with hardware and firmware teams, troubleshooting issues, and participating in code reviews. You will be at the forefront of innovation in the automotive and energy industries, working towards a sustainable future.",
+      "educational_requirements": "Bachelor's degree in Computer Science or a related field from a reputable university.",
+      "experiences": "2-3 years of software engineering experience.",
+      "contact_information": {
+          "phone": "650-681-5000",
+          "email": "info@tesla.com",
+          "address": "3500 Deer Creek Road, Palo Alto, CA 94304, USA"
+      }
+  },
+  {
+      "id": 4,
+      "logo": "https://i.ibb.co/znJ6qcc/google.png",
+      "job_title": "Software Engineer",
+      "company_name": "Google LLC",
+      "remote_or_onsite": "Onsite",
+      "location": "Mountain View, California, USA",
+      "job_type": "Full Time",
+      "salary": "100k-150k",
+      "job_description": "As a Software Engineer at Google LLC, you will have the opportunity to work on groundbreaking projects and technologies that impact people around the world. You will be part of a diverse and talented team focused on innovation and problem-solving, contributing to Google's mission of organizing the world's information and making it universally accessible and useful.",
+      "job_responsibility": "Responsibilities as a Software Engineer at Google LLC include designing and developing software solutions, collaborating with cross-functional teams, conducting code reviews, and participating in the full software development lifecycle. You will have the chance to shape the future of technology with your contributions.",
+      "educational_requirements": "Bachelor's degree in Computer Science or a related field from a reputable university.",
+      "experiences": "2-3 years of software engineering experience.",
+      "contact_information": {
+          "phone": "650-253-0000",
+          "email": "info@google.com",
+          "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043, USA"
+      }
+  },
+  {
+      "id": 5,
+      "logo": "https://i.ibb.co/xGBXqz7/tesla.png",
+      "job_title": "Technical Database Engineer",
+      "company_name": "Tesla",
+      "remote_or_onsite": "Remote",
+      "location": "Fremont, California, USA",
+      "job_type": "Full Time",
+      "salary": "100k-150k",
+      "job_description": "As a Technical Database Engineer at Tesla, you will be responsible for designing, optimizing, and maintaining our database systems to support our mission of sustainable energy and transportation. You will collaborate with a global team to ensure data reliability and performance, contributing to Tesla's innovative projects and environmental goals.",
+      "job_responsibility": "Responsibilities as a Technical Database Engineer at Tesla include designing and implementing database solutions, optimizing database performance, ensuring data security, and working closely with cross-functional teams to support their data needs. Your work will be instrumental in Tesla's commitment to a sustainable future.",
+      "educational_requirements": "Bachelor's degree in Computer Science or a related field from a reputable university.",
+      "experiences": "2-3 years of experience in database engineering.",
+      "contact_information": {
+          "phone": "510-623-0000",
+          "email": "info@tesla.com",
+          "address": "3500 Deer Creek Road, Palo Alto, CA 94304, USA"
+      }
+  },
+  {
+      "id": 6,
+      "logo": "https://i.ibb.co/Zd73hz4/netflix.png",
+      "job_title": "Senior Product Designer",
+      "company_name": "Netflix",
+      "remote_or_onsite": "Remote",
+      "location": "Los Gatos, California, USA",
+      "job_type": "Full Time",
+      "salary": "100k-150k",
+      "job_description": "As a Senior Product Designer at Netflix, you will be at the forefront of shaping the user experience for our streaming platform. You'll work closely with our design team to create visually stunning and user-friendly interfaces that delight millions of viewers worldwide. Your designs will contribute to the success of Netflix's mission to entertain the world.",
+      "job_responsibility": "Responsibilities as a Senior Product Designer at Netflix include collaborating with cross-functional teams to define design requirements, creating wireframes and prototypes, conducting user research, and contributing to the development of our design system. You will play a key role in ensuring that our product remains innovative and engaging, setting the bar for the industry.",
+      "educational_requirements": "Bachelor's degree in Design or a related field from a reputable university.",
+      "experiences": "2-3 years of experience in UI/UX design.",
+      "contact_information": {
+          "phone": "408-540-3700",
+          "email": "info@netflix.com",
+          "address": "100 Winchester Circle, Los Gatos, CA 95032, USA"
+      }
+  }
+]
