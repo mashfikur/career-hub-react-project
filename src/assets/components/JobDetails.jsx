@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import "./common/common.css";
 import Desctiption from "./Desctiption";
 import JobSidebar from "./JobSidebar";
+import { useEffect } from "react";
 
 const JobDetails = () => {
   const jobs = useLoaderData();
@@ -9,6 +10,10 @@ const JobDetails = () => {
   const intId = parseInt(jobID);
 
   const selctedJob = jobs.find((job) => job.id === intId);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const {
     job_description,
@@ -18,6 +23,7 @@ const JobDetails = () => {
     contact_information,
     job_title,
     salary,
+    company_name,
   } = selctedJob;
 
   return (
@@ -29,7 +35,7 @@ const JobDetails = () => {
           </h3>
         </div>
       </div>
-      <div className="max-w-[80rem] mt-28 mx-auto">
+      <div className="max-w-[80rem] my-24 mx-auto">
         <div className="flex gap-5">
           <div className="w-3/4  space-y-6">
             <Desctiption
@@ -47,7 +53,12 @@ const JobDetails = () => {
             <Desctiption title={"Experiences"} desc={experiences}></Desctiption>
           </div>
           <div className="w-1/4">
-            <JobSidebar salary={salary} job_title={job_title} contact_information={contact_information} ></JobSidebar>
+            <JobSidebar
+              salary={salary}
+              job_title={job_title}
+              contact_information={contact_information}
+              company_name={company_name}
+            ></JobSidebar>
           </div>
         </div>
       </div>

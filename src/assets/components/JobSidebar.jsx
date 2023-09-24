@@ -9,7 +9,7 @@ import {
 import { CiLocationOn } from "react-icons/ci";
 import { HiOutlineCalendarDays } from "react-icons/hi2";
 
-const JobSidebar = ({ contact_information, job_title, salary }) => {
+const JobSidebar = ({ contact_information, job_title, salary,company_name }) => {
   return (
     <div>
       <div className="space-y-3 card-bg p-4 mb-4 ">
@@ -23,6 +23,10 @@ const JobSidebar = ({ contact_information, job_title, salary }) => {
         <span className="flex items-center gap-2">
           <HiOutlineCalendarDays></HiOutlineCalendarDays>
           <h3 className="font-extrabold">Job Title : {job_title} </h3>
+        </span>
+        <span className="flex items-center gap-2">
+          <HiOutlineCalendarDays className=""></HiOutlineCalendarDays>
+          <h3 className="font-extrabold">Company Name: {company_name} </h3>
         </span>
 
         <h3 className="text-xl font-extrabold">Contact Information</h3>
@@ -57,6 +61,7 @@ JobSidebar.propTypes = {
   contact_information: PropTypes.object,
   salary: PropTypes.string,
   job_title: PropTypes.string,
+  company_name: PropTypes.string,
 };
 
 export default JobSidebar;
