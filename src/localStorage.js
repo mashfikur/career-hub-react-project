@@ -9,9 +9,7 @@ const getJobs = () => {
 };
 
 const saveJob = (id) => {
-  console.log(id);
   const localJobs = getJobs();
-  console.log(localJobs);
 
   if (!localJobs.includes(id)) {
     localJobs.push(id);
