@@ -24,6 +24,7 @@ const JobDetails = () => {
     job_title,
     salary,
     company_name,
+    id,
   } = selctedJob;
 
   return (
@@ -58,6 +59,7 @@ const JobDetails = () => {
               job_title={job_title}
               contact_information={contact_information}
               company_name={company_name}
+              id={id}
             ></JobSidebar>
           </div>
         </div>

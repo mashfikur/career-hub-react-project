@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import "../common/common.css"
+import "../common/common.css";
 
 const Navbar = () => {
   const links = (
@@ -12,7 +12,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="blue-bg" >
+    <div className="blue-bg">
       <div className="navbar max-w-[80rem] mx-auto ">
         <div className="navbar-start">
           <div className="dropdown">
@@ -45,7 +45,7 @@ const Navbar = () => {
           <ul className="menu menu-horizontal space-x-6 font-bold">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className=" btn btn-own capitalize ">
+          <a href="#featured" className=" btn btn-own capitalize ">
             Start Applying
           </a>
         </div>

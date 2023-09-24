@@ -12,7 +12,7 @@ const FeaturedJobs = () => {
       .then((data) => setJobs(data));
   }, []);
   return (
-    <div className="max-w-[80rem] mx-auto mb-32 ">
+    <div id="featured" className="max-w-[80rem] mx-auto mb-32 ">
       <SectionTitle title={"Featured Jobs"}>
         <p>
           Explore thousands of job opportunities with all the information you

@@ -8,8 +8,20 @@ import {
 } from "react-icons/ai";
 import { CiLocationOn } from "react-icons/ci";
 import { HiOutlineCalendarDays } from "react-icons/hi2";
+import { saveJob } from "../../localStorage";
 
-const JobSidebar = ({ contact_information, job_title, salary,company_name }) => {
+const JobSidebar = ({
+  contact_information,
+  job_title,
+  salary,
+  company_name,
+  id,
+}) => {
+
+  const handleApply=(id)=>{
+    saveJob(id)
+  }
+
   return (
     <div>
       <div className="space-y-3 card-bg p-4 mb-4 ">
@@ -51,7 +63,9 @@ const JobSidebar = ({ contact_information, job_title, salary,company_name }) => 
         </span>
       </div>
       <div className="flex flex-col">
-        <button className="btn btn-own">Apply Now</button>
+        <button 
+        onClick={()=>handleApply(id)}
+        className="btn btn-own">Apply Now</button>
       </div>
     </div>
   );
@@ -62,6 +76,7 @@ JobSidebar.propTypes = {
   salary: PropTypes.string,
   job_title: PropTypes.string,
   company_name: PropTypes.string,
+  id: PropTypes.number,
 };
 
 export default JobSidebar;
