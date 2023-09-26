@@ -3,6 +3,7 @@ import "./common/common.css";
 import Desctiption from "./Desctiption";
 import JobSidebar from "./JobSidebar";
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 
 const JobDetails = () => {
   const jobs = useLoaderData();
@@ -29,6 +30,9 @@ const JobDetails = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Career Hub | Job Details - {jobID} </title>
+      </Helmet>
       <div className="blue-bg">
         <div className="max-w-[80rem] mx-auto">
           <h3 className="text-3xl py-28 font-extrabold text-center">

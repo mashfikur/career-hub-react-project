@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import { getJobs } from "../../localStorage";
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 const AppliedJobs = () => {
   const jobs = useLoaderData();
@@ -44,6 +45,9 @@ const AppliedJobs = () => {
 
   return (
     <div className="max-w-[80rem] mx-auto mb-20">
+      <Helmet>
+        <title>Career Hub | Applied Jobs </title>
+      </Helmet>
       <div>
         <details className="dropdown my-4 ">
           <summary className="m-1 btn">Filter</summary>
