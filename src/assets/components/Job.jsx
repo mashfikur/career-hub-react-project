@@ -41,7 +41,7 @@ const Job = ({ job }) => {
           </h3>
         </div>
         <div>
-          <Link to={`/job/${id}`}>
+          <Link to={`/${id}`}>
             <button className="btn btn-own">View Details</button>
           </Link>
         </div>
